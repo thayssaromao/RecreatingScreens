@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.sideBar{
+    width: 450px;
+    background-color: #121212;
+    padding: 14px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-logo i{
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.nav-library{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-library i, .nav-library p{
+   color: white;
+   font-size: 14px;
+   cursor: pointer;
+}
+
+.nav-playlist, .nav-podcasts{
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.nav-playlist button, .nav-podcasts button{
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 6px 10px;
+    margin-top: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.nav-playlist p, .nav-podcasts p{
+    font-size: 12px;
+}
+
+.nav-footer{
+    margin-top: auto;
+    
+}
+.nav-footer a{
+    color: #a7a7a7;
+    text-decoration: none;
+    font-size: 10px;
+    margin-right: 12px;
+}
+.nav-languageButton{
+    background-color: transparent;
+    border: 1px solid #a7a7a7;
+    color: #fff;
+    padding: 8px;
+    margin-top: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+main{
+    
+    padding: 10px;
+    flex-grow: 1;
+    overflow-y:auto;
+    
+}
+.header{
+    /* background-color: #121212; */
+    background: linear-gradient(180deg, #121212, #262626);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.searchBar{
+    display: flex;
+    align-items: center;
+    background-color: #242424;
+    padding: 15px 20px;
+    border-radius: 25px;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.searchBar input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.searchBar i{
+    color: #a7a7a7;
+    font-size: 16px;
+}
+
+.artistGrid, .albumsGrid {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    scroll-snap-type: x mandatory;
+}
+
+
+.artistCard, .albumCard {
+    flex: 0 0 auto;
+    width: 160px;
+    scroll-snap-align: start;
+   padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+
+.artistCard:hover, .albumCard:hover{
+   background-color: #282828;
+}
+
+.albumCard img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.artistCard img{
+    width: 100%;
+    max-height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.artistCard p, .albumCard p{
+    font-size: 10px;
+    color: #B7b3b6;
+}
+
+.banner{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(90deg, #af2896, #509bf5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 14px;
+    flex-direction: row;
+
+}
+
+.banner h2{
+    font-size: 14px;
+}
+.banner p{
+    font-size: 10px;
+}
+.banner button{
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navSupper {
+    display: flex; /* Transforma o container em um container flexível */
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+
+.headerFooter {
+    display: flex;
+    gap: 10px; 
+}
+
+.headerFooter a, .headerFooter p {
+    text-decoration: none;
+    font-size: 13px; 
+    color: #a7a7a7;
+    margin-bottom: 15px; 
+}
+
+.logInButton {
+    padding: 12px 20px;
+    background: white;
+    border: none;
+        font-size: 14px; 
+
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 15px; 
+    font-weight: 600;
+}
