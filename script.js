@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const albumsData = [
         {name: "Patrono",image: "img/patrono.png"},
-        {name: "Caju",image: "img/caju.png"},
+        {name: "Caju",image: "img/Caju.png"},
         {name: "Marquises e Jardins",image: "img/nabru.png"},
         {name: "Sono TWS",image: "img/otafita.png"},
         {name: "Pumapjl",image: "img/pumapjl.png"},
