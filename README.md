@@ -17,7 +17,7 @@ O objetivo principal é **consolidar conhecimentos em HTML, CSS e JavaScript**, 
 ---
   
 # 📸 Prévia
-<img width="3024" height="1684" alt="image" src="https://github.com/user-attachments/assets/19a864e3-3a71-4c60-af89-3b7d1a0c5b21" />
+<img width="3024" height="1680" alt="image" src="https://github.com/user-attachments/assets/53f961d2-6e72-4b5d-8af3-aa787225d805" />
 
 ## 🛠️ Tecnologias Utilizadas
 HTML5
