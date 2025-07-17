@@ -1,4 +1,4 @@
-# 🎵 Recriando a Tela de Inicial do Spotify 
+# 🎵 Recriando a Tela Inicial do Spotify 
 Este projeto é uma recriação da **tela inicial do Spotify** feita com foco em prática de **desenvolvimento web front-end**.
 
 O objetivo principal é **consolidar conhecimentos em HTML, CSS e JavaScript**, explorando a construção de componentes visuais, manipulação de DOM (Modelo de Objeto do Documento), tudo em um layout realista inspirado em um produto existente.
